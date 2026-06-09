@@ -47,7 +47,7 @@ public class EventsController : ControllerBase
                 Registrations = s.Registrations.Select(r => new RegistrationsDTO
                 {
                     RegisteredAt = r.RegisteredAt,
-                    SeatNumber = r.SeatNumber,
+                    SeatNumber = r.SeatNumber!,
                     Attendee = new AttendeesDTO
                     {
                         FirstName = r.Attendee.FirstName,
