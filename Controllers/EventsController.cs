@@ -2,7 +2,6 @@
 using PrepT2.Data;
 using TemplateForT2.DTOs;
 using Microsoft.EntityFrameworkCore;
-using TemplateForT2.Models;
 
 namespace TemplateForT2.Controllers;
 
@@ -70,6 +69,6 @@ public class EventsController : ControllerBase
     [HttpPost("{id}/registrations")]
     public async Task<IActionResult> PostEvent(int id)
     {
-        
+        return CreatedAtAction(nameof(GetEvent), new { id = id }, await _context.Events.FindAsync(id));
     }
 }
