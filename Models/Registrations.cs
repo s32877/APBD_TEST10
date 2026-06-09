@@ -9,5 +9,5 @@ public class Registrations
     public Events Event { get; set; } = null!;
     
     public DateTime RegisteredAt { get; set; }
-    public int? SeatNumber { get; set; }
+    public string? SeatNumber { get; set; }
 }

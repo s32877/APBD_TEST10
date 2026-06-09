@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TemplateForT2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df001b0f48bc91a9458fcd81a20639e4ebc33bea")]
 [assembly: System.Reflection.AssemblyProductAttribute("TemplateForT2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TemplateForT2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
